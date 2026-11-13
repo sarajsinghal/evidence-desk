@@ -1,6 +1,8 @@
-# Project 11 — Evidence Desk
+# Evidence Desk — Research Comparison
 
-A portfolio-grade Streamlit research lab with independent Parallel Search and Tavily Search adapters. It runs in demo mode without credentials. There is no LLM integration, model endpoint, model API key requirement, document upload, or hidden model call.
+A Streamlit research application with independent Parallel Search and Tavily Search adapters. Demo mode works without credentials. The application does not integrate a language model, require a model API key, accept document uploads, or make undisclosed model calls.
+
+**Live app:** https://evidence-desk.streamlit.app/
 
 ## What it does
 
@@ -14,7 +16,7 @@ A portfolio-grade Streamlit research lab with independent Parallel Search and Ta
 
 ## Windows setup
 
-Open PowerShell in the `project11` folder:
+Open PowerShell in the repository root:
 
 ```powershell
 py -3.11 -m venv .venv
